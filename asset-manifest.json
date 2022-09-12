@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ivan-box/pro-react-homework-template1/static/css/main.7acaea2f.css",
-    "main.js": "/ivan-box/pro-react-homework-template1/static/js/main.91457941.js",
+    "main.js": "/ivan-box/pro-react-homework-template1/static/js/main.1d65ba58.js",
     "index.html": "/ivan-box/pro-react-homework-template1/index.html",
     "main.7acaea2f.css.map": "/ivan-box/pro-react-homework-template1/static/css/main.7acaea2f.css.map",
-    "main.91457941.js.map": "/ivan-box/pro-react-homework-template1/static/js/main.91457941.js.map"
+    "main.1d65ba58.js.map": "/ivan-box/pro-react-homework-template1/static/js/main.1d65ba58.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.91457941.js"
+    "static/js/main.1d65ba58.js"
   ]
 }
