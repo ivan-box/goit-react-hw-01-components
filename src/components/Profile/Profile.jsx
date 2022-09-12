@@ -1,6 +1,4 @@
-import user from '../../data/user.json';
-console.log(user);
-const Profile = ({ username, tag, location, avatar, stats } = user) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className="profile">
       <div className="description">
@@ -15,7 +13,7 @@ const Profile = ({ username, tag, location, avatar, stats } = user) => {
         <p className="location">{location}</p>
       </div>
 
-      {/* <ul className="stats">
+      <ul className="stats">
         <li>
           <span className="label">Followers</span>
           <span className="quantity">{stats.followers}</span>
@@ -28,7 +26,7 @@ const Profile = ({ username, tag, location, avatar, stats } = user) => {
           <span className="label">Likes</span>
           <span className="quantity">{stats.likes}</span>
         </li>
-      </ul> */}
+      </ul>
     </div>
   );
 };
