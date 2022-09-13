@@ -6,6 +6,7 @@ import user from '../data/user.json';
 import friends from '../data/friends.json';
 import transactions from '../data/transactions.json';
 import data from '../data/data.json';
+// import PropTypes from 'prop-types';
 
 export const App = () => {
   return (
@@ -24,3 +25,12 @@ export const App = () => {
     </>
   );
 };
+
+// optionalArray: PropTypes.array,
+//   optionalBigInt: PropTypes.bigint,
+//   optionalBool: PropTypes.bool,
+//   optionalFunc: PropTypes.func,
+//   optionalNumber: PropTypes.number,
+//   optionalObject: PropTypes.object,
+//   optionalString: PropTypes.string,
+//   optionalSymbol: PropTypes.symbol,
