@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ivan-box/pro-react-homework-template1/static/css/main.7acaea2f.css",
-    "main.js": "/ivan-box/pro-react-homework-template1/static/js/main.1d65ba58.js",
-    "index.html": "/ivan-box/pro-react-homework-template1/index.html",
-    "main.7acaea2f.css.map": "/ivan-box/pro-react-homework-template1/static/css/main.7acaea2f.css.map",
-    "main.1d65ba58.js.map": "/ivan-box/pro-react-homework-template1/static/js/main.1d65ba58.js.map"
+    "main.css": "/ivan-box/react-homework-template/static/css/main.7acaea2f.css",
+    "main.js": "/ivan-box/react-homework-template/static/js/main.1d65ba58.js",
+    "index.html": "/ivan-box/react-homework-template/index.html",
+    "main.7acaea2f.css.map": "/ivan-box/react-homework-template/static/css/main.7acaea2f.css.map",
+    "main.1d65ba58.js.map": "/ivan-box/react-homework-template/static/js/main.1d65ba58.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
