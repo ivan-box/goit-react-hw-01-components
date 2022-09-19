@@ -10,7 +10,18 @@ import data from '../data/data.json';
 
 export const App = () => {
   return (
-    <>
+    <div
+    // style={{
+    //   display: 'flex',
+    //   justifyContent: 'center',
+    //   alignItems: 'center',
+    //   fontSize: 40,
+    //   color: '#010101',
+    //   flexDirection: 'column',
+    //   paddingTop: '30px',
+    //   paddingBottom: '30px',
+    // }}
+    >
       <Profile
         username={user.username}
         tag={user.tag}
@@ -20,9 +31,9 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
-      <FriendList friends={friends} />;
-      <TransactionHistory transactions={transactions} />;
-    </>
+      <FriendList friends={friends} />
+      <TransactionHistory transactions={transactions} />
+    </div>
   );
 };
 

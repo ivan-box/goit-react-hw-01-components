@@ -1,19 +1,19 @@
 import PropTypes from 'prop-types';
-
+import s from './Statistics.module.css';
 const Statistics = ({ stats, title }) => {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
-      <ul className="stat-list">
+    <section className={s.statistics}>
+      {title && <h2 className={s.title}>{title}</h2>}
+      <ul className={s.list}>
         {stats.map(({ id, label, percentage }) => {
           return (
             <li
               key={id}
               style={{ backgroundColor: randomColor() }}
-              className="item"
+              className={s.item}
             >
-              <span className="label">{label}</span>
-              <span className="percentage">{percentage}</span>
+              <span className={s.label}>{label}</span>
+              <span className={s.percentage}>{percentage} %</span>
             </li>
           );
         })}
@@ -29,6 +29,7 @@ Statistics.propTypes = {
       percentage: PropTypes.number.isRequired,
     })
   ).isRequired,
+  title: PropTypes.string.isRequired,
 };
 export default Statistics;
 
